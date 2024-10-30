@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Class Time Table</title>
+        <style>
+        *{
+            padding: 0;
+            margin: 0;
+            user-select: none;
+        }
+        body{
+                 height: 100vh;
+                 display: flex;
+                 justify-content: center;
+                align-items: center;
+                flex-direction: column;
+           }
+     h1{
+        position: absolute;
+        top: 40px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 40px;
+        color: rgb(14, 13, 13);
+      }
+      table{
+        color: rgb(19, 13, 13);
+        padding: 40px;
+        text-align:center; 
+        border-collapse: collapse;
+   }
+   tr,th,td{
+    border: 2px solid black;
+    padding: 15px;
+   }
+   th:hover{
+    color: red;
+    background-color: black;
+    transition: all .60s ease-in;
+   }
+   td:hover{
+    color: red;
+    background-color: black;
+    transition: all .60s ease-in;
+   }
+    </style>
+    </head>
+    <body>
+        <h1>M<sub>SC</sub> Class Time Table</h1>
+        <table>
+            <tr>
+                <th>Period/Day</th>
+                <th>9.30 to 10.20</th>
+                <th>10.20 to 11.10</th>
+                <th>11.10 to 12.00</th>
+                <th rowspan=7 class="break">Break Time</th>
+                <th>12.30 to 01.20</th>
+                <th>01.20 to 02.10</th>
+                <th>02.10 to 3.00</th>
+            </tr>
+            <tr>
+                <td>MonDay</td>
+                <td>TOA(ms.R.P)</td>
+                <td>DDA(Dr.A.S.A)</td>
+                <td>SL-Lab</td>
+                <td>SL(Dr.A.A)</td>
+                <td>ACEMENT</td>
+                <td>Bigdata(Dr.R.P)</td>
+            </tr>
+            <tr>
+                <td>TuesDay</td>
+                <td>DDA(Dr.A.S.A)</td>
+                <td colspan=2>SL-Lab </td>
+                <td>LINUX LAB</td>
+                <td>SL(Dr.A.A)</td>
+                <td>SP-L(DR.K.A)</td>
+            </tr>
+            <tr>
+                <td>WednesDay</td>
+                <td>Bigdata(Dr.R.P)</td>
+                <td>SL(Dr.A.A)</td>
+                <td>DDA(Dr.A.S.A)</td>
+                <td>LINUX LAB</td>
+                <td>SP-L(DR.K.A)</td>
+                <td>TOA(ms.R.P)</td>
+            </tr>
+            <tr>
+                <td>ThursDay</td>
+                <td>TOA(Ms.R.P)</td>
+                <td>PLACEMENT</td>
+                <td>SP-L(DR.K.A)</td>
+                <td>LINUX LAB</td>
+                <td>Bigdata(Dr.R.P)</td>
+                <td>SL(Dr.A.A)</td>
+            </tr>
+            <tr>
+                <td>FriDay</td>
+                <td>SP-L(DR.K.A)</td>
+                <td>SL(Dr.A.A)</td>
+                <td>Bigdata(Dr.R.P)</td>
+                <td>DDA(Dr.A.S.A)</td>
+                <td>TOA(Ms.R.P)</td>
+                <td>MENTOR(Dr.A.S.A)</td>
+            </tr>
+        </table>
+    </body>
+</html>
